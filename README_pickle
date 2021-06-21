@@ -1,0 +1,12 @@
+
+##### TO READ THE PICKLE FILE USE THIS
+
+import pickle 
+
+with open('filename','rb') as pickle_file:
+	content = pickle.load(pickle_file)
+
+
+plt.plot(content[':TFN@%f:TFN@%f'][1])
+plt.show()
+
